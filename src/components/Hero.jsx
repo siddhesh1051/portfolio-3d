@@ -22,7 +22,7 @@ const Hero = () => {
             I am a MERN Stack Developer and <br className='sm:block hidden' />
             Passionate about learning new Technologies
           </p>
-          <a href="./assets/Siddhesh_Patil_Resume.pdf" download="Siddhesh_Patil_Resume.pdf" target="_blank" rel="noreferrer">
+          <a href="https://drive.google.com/file/d/1M2RYJB-tVrjytPhNcuBgrpgF1ov0tx6H/view?usp=sharing" target="_blank" rel="noreferrer">
           <button class="transition duration-500 border-0 text-lg h-12 w-[10rem] bg-[#915EFF] hover:bg-[#543794] text-white mt-10 px-3 rounded-md">
         
           
