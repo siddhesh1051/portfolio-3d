@@ -23,6 +23,7 @@ import {
   codeclause,
   cineflix,
   sgpa,
+  contri,
   password,
   noticeboard,
   stockflipr,
@@ -217,6 +218,32 @@ const projects = [
     live_link: "https://cineflix.live",
     source_code_link: "https://github.com/siddhesh1051/CineFlix",
   },
+  //project 6
+
+  {
+    name: "Contri",
+    description:
+      "Web app that allows users to chat with each other an also split bills among themselves. Made using ReactJs and firebase and razorpay api.",
+    tags: [
+      {
+        name: "reactJs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "razorpay",
+        color: "blue-text-gradient",
+      },
+      
+    ],
+    image: contri,
+    live_link: "https://www.contri.tech",
+    source_code_link: "https://github.com/siddhesh1051/Contri",
+  },
+
     //project 2
     {
       name: "StockFlipr", 
@@ -322,27 +349,7 @@ const projects = [
  
 
   
-  // //project 6
-
-  // {
-  //   name: "SGPA Calculator",
-  //   description:
-  //     "React App that allows students to calculate their SGPA of 5th semsester of IIIT Nagpur.",
-  //   tags: [
-  //     {
-  //       name: "reactJs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "bootstrap",
-  //       color: "green-text-gradient",
-  //     },
-      
-  //   ],
-  //   image: sgpa,
-  //   live_link: "http://sgpa-cal.netlify.app/",
-  //   source_code_link: "https://github.com/siddhesh1051/SGPA-Calculator",
-  // }
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };

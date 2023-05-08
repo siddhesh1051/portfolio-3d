@@ -35,6 +35,7 @@ import sgpa from "./sgpa.jpg";
 import password from "./password.jpg";
 import noticeboard from "./noticeboard.png";
 import stockflipr from "./stockflipr.jpg";
+import contri from "./contri.jpg";
 
 import linkedin from "./linkedin.png";
 import github_profile from "./github_profile.png";
@@ -72,6 +73,7 @@ export {
   iiitn,
   codeclause,
   cineflix,
+  contri,
   sgpa,
   password,
   noticeboard,
