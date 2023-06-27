@@ -4,8 +4,6 @@ import {
   creator,
   web,
   javascript,
-  typescript,
-  html,
   css,
   reactjs,
   redux,
@@ -22,6 +20,7 @@ import {
   iiitn,
   codeclause,
   cineflix,
+  ownlink,
   sgpa,
   contri,
   password,
@@ -219,6 +218,32 @@ const projects = [
     source_code_link: "https://github.com/siddhesh1051/CineFlix",
   },
   //project 6
+  {
+    name: "Ownlink",
+    description:
+      "Ownlink is a cutting-edge web application that revolutionizes the link-in-bio experience across platforms. It's designed to help you consolidate and share multiple links seamlessly.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ownlink,
+    live_link: "https://ownlink.vercel.app",
+    source_code_link: "https://github.com/siddhesh1051/Ownlink",
+  },
 
   {
     name: "Contri",

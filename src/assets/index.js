@@ -31,6 +31,7 @@ import codeclause from "./company/codeclause.png";
 
 
 import cineflix from "./cineflix.jpg";
+import ownlink from "./ownlink.jpg";
 import sgpa from "./sgpa.jpg";
 import password from "./password.jpg";
 import noticeboard from "./noticeboard.png";
@@ -41,6 +42,7 @@ import linkedin from "./linkedin.png";
 import github_profile from "./github_profile.png";
 import codechef from "./codechef.png";
 import leetcode from "./leetcode.png";
+
 
 
 export {
@@ -73,6 +75,7 @@ export {
   iiitn,
   codeclause,
   cineflix,
+  ownlink,
   contri,
   sgpa,
   password,
