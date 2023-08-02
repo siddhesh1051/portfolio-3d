@@ -37,6 +37,7 @@ import password from "./password.jpg";
 import noticeboard from "./noticeboard.png";
 import stockflipr from "./stockflipr.jpg";
 import contri from "./contri.jpg";
+import ahead from "./ahead.jpg";
 
 import linkedin from "./linkedin.png";
 import github_profile from "./github_profile.png";
@@ -77,6 +78,7 @@ export {
   cineflix,
   ownlink,
   contri,
+  ahead,
   sgpa,
   password,
   noticeboard,

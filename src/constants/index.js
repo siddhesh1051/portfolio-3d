@@ -30,6 +30,7 @@ import {
   leetcode,
   codechef,
   linkedin,
+  ahead
 } from "../assets";
 
 export const navLinks = [
@@ -267,6 +268,30 @@ const projects = [
     image: contri,
     live_link: "https://www.contri.tech",
     source_code_link: "https://github.com/siddhesh1051/Contri",
+  },
+
+  {
+    name: "Ahead App Redesign",
+    description:
+      "Redesigned the landing page of Ahead App using NextJs and Framer Motion.",
+    tags: [
+      {
+        name: "NextJs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Framer Motion",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "blue-text-gradient",
+      },
+      
+    ],
+    image: ahead,
+    live_link: "https://density-exchange-landing-page.vercel.app/",
+    source_code_link: "https://github.com/siddhesh1051/Density-Exchange-Landing-Page",
   },
 
     //project 2

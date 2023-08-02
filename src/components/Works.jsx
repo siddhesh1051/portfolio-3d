@@ -32,6 +32,7 @@ const ProjectCard = ({
             src={image}
             alt='project_image'
             className='w-full h-full object-cover rounded-2xl'
+            accept='image/*'
           />
 
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
