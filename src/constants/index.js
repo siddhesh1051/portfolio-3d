@@ -30,7 +30,9 @@ import {
   leetcode,
   codechef,
   linkedin,
-  ahead
+  ahead,
+  leetcode_contest_maker,
+  hiremonk
 } from "../assets";
 
 export const navLinks = [
@@ -351,6 +353,26 @@ const projects = [
   //project 4
 
   {
+    name: "Hiremonk",
+    description:
+      "Hiring Agency UI made using React Tailwind and framer motion",
+    tags: [
+      {
+        name: "reactJs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "framer motion",
+        color: "blue-text-gradient",
+      },
+      
+    ],
+    image: hiremonk,
+    live_link: "http://hiremonk.vercel.app/",
+    source_code_link: "https://github.com/siddhesh1051/hiring-agency-ui",
+  },
+
+  {
     name: "SGPA Calculator",
     description:
       "React App that allows students to calculate their SGPA of 5th semsester of IIIT Nagpur. .........               ",
@@ -370,31 +392,57 @@ const projects = [
     source_code_link: "https://github.com/siddhesh1051/SGPA-Calculator",
   },
 
-  // project 5
+  //project 5
 
   {
-    name: "Random Password Generator",
+    name: "Leetcode Contest maker (SQL)",
     description:
-      "Vanilla Javascript App that allows users to generate random passwords of different lengths and different types and shows strength of generated password.",
+      "React App and Mysql DB that allow users create leetcode contests and add questions to it.",
     tags: [
       {
-        name: "html",
+        name: "reactJs",
         color: "blue-text-gradient",
       },
       {
-        name: "css",
+        name: "Mysql",
         color: "green-text-gradient",
       },
       {
-        name: "javascript",
-        color: "pink-text-gradient",
+        name: "sql",
+        color: "green-text-gradient",
       },
       
     ],
-    image: password,
-    live_link: "https://random-password-generator-pro.vercel.app/",
-    source_code_link: "https://github.com/siddhesh1051/SGPA-Calculator",
+    image: leetcode_contest_maker,
+    live_link: "https://leetcodecontestmaker.vercel.app/",
+    source_code_link: "https://github.com/siddhesh1051/leetcode-contest-maker",
   },
+
+  // project 6
+
+  // {
+  //   name: "Random Password Generator",
+  //   description:
+  //     "Vanilla Javascript App that allows users to generate random passwords of different lengths and different types and shows strength of generated password.",
+  //   tags: [
+  //     {
+  //       name: "html",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "javascript",
+  //       color: "pink-text-gradient",
+  //     },
+      
+  //   ],
+  //   image: password,
+  //   live_link: "https://random-password-generator-pro.vercel.app/",
+  //   source_code_link: "https://github.com/siddhesh1051/SGPA-Calculator",
+  // },
 
  
 

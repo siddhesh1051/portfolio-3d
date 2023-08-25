@@ -38,6 +38,8 @@ import noticeboard from "./noticeboard.png";
 import stockflipr from "./stockflipr.jpg";
 import contri from "./contri.jpg";
 import ahead from "./ahead.jpg";
+import leetcode_contest_maker from "./leetcode_contest.jpg";
+import hiremonk from "./hiremonk.jpg";
 
 import linkedin from "./linkedin.png";
 import github_profile from "./github_profile.png";
@@ -80,6 +82,8 @@ export {
   contri,
   ahead,
   sgpa,
+  leetcode_contest_maker,
+  hiremonk,
   password,
   noticeboard,
   stockflipr,
