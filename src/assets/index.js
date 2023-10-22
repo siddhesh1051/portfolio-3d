@@ -40,6 +40,7 @@ import contri from "./contri.jpg";
 import ahead from "./ahead.jpg";
 import leetcode_contest_maker from "./leetcode_contest.jpg";
 import hiremonk from "./hiremonk.jpg";
+import SDE from "./SDE.jpg";
 
 import linkedin from "./linkedin.png";
 import github_profile from "./github_profile.png";
@@ -84,6 +85,7 @@ export {
   sgpa,
   leetcode_contest_maker,
   hiremonk,
+  SDE,
   password,
   noticeboard,
   stockflipr,
@@ -91,4 +93,5 @@ export {
   github_profile,
   codechef,
   leetcode,
+
 };

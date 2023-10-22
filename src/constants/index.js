@@ -26,6 +26,7 @@ import {
   password,
   noticeboard,
   stockflipr,
+  SDE,
   github_profile,
   leetcode,
   codechef,
@@ -33,6 +34,7 @@ import {
   ahead,
   leetcode_contest_maker,
   hiremonk
+
 } from "../assets";
 
 export const navLinks = [
@@ -373,23 +375,23 @@ const projects = [
   },
 
   {
-    name: "SGPA Calculator",
+    name: "Striver SDE Sheet Tracker", 
     description:
-      "React App that allows students to calculate their SGPA of 5th semsester of IIIT Nagpur. .........               ",
+      "Web App that allows users to track their progress in Striver SDE Sheet.",
     tags: [
       {
         name: "reactJs",
         color: "blue-text-gradient",
       },
       {
-        name: "bootstrap",
+        name: "NextUI",
         color: "green-text-gradient",
       },
       
     ],
-    image: sgpa,
-    live_link: "http://sgpa-cal.netlify.app/",
-    source_code_link: "https://github.com/siddhesh1051/SGPA-Calculator",
+    image: SDE,
+    live_link: "https://sde-sheet.vercel.app/",
+    source_code_link: "https://github.com/siddhesh1051/Striver_sde_sheet_tracker_web_app",
   },
 
   //project 5
