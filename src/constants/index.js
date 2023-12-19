@@ -246,7 +246,7 @@ const projects = [
       },
     ],
     image: ownlink,
-    live_link: "https://ownlink.vercel.app",
+    live_link: "https://ownlink.me",
     source_code_link: "https://github.com/siddhesh1051/Ownlink",
   },
 
