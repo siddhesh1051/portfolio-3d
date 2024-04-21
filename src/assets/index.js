@@ -28,6 +28,8 @@ import chakra from "./tech/chakra.png";
 import allen from "./company/allen.png";
 import iiitn from "./company/iiitn.png";
 import codeclause from "./company/codeclause.png";
+import density from "./company/density.png"
+import skille from "./company/skille.png"
 
 
 import cineflix from "./cineflix.jpg";
@@ -78,6 +80,8 @@ export {
   allen,
   iiitn,
   codeclause,
+  density,
+  skille,
   cineflix,
   ownlink,
   contri,

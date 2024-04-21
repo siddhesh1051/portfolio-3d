@@ -19,6 +19,8 @@ import {
   allen,
   iiitn,
   codeclause,
+  density,
+  skille,
   cineflix,
   ownlink,
   sgpa,
@@ -135,16 +137,16 @@ const technologies = [
 ];
 
 const experiences = [
-  {
-    title: "IIT-JEE Coaching",
-    company_name: "Allen Career Institute",
-    icon: allen,
-    iconBg: "#383E56",
-    date: "June 2019 - May 2020",
-    points: [
-      "Kota"
-    ],
-  },
+  // {
+  //   title: "IIT-JEE Coaching",
+  //   company_name: "Allen Career Institute",
+  //   icon: allen,
+  //   iconBg: "#383E56",
+  //   date: "June 2019 - May 2020",
+  //   points: [
+  //     "Kota"
+  //   ],
+  // },
   {
     title: "B.Tech in Electronics and Communication Engineering",
     company_name: "Indian Institute of Information Technology, Nagpur",
@@ -164,6 +166,26 @@ const experiences = [
     date: "Dec 2022 - Jan 2023",
     points: [
       "Worked on a project to create a web app that allows students to view notices posted by the college and also allows them to post notices. ",
+    ],
+  },
+  {
+    title: "Frontend Intern",
+    company_name: "Density Exchange",
+    icon: density ,
+    iconBg: "#E6DEDD",
+    date: "Dec 2023 - Jan 2024",
+    points: [
+      "Contributed to revamping the trading platform and building the Density Community Website. Used React js and Material UI to develop reusable components",
+    ],
+  },
+  {
+    title: "Frontend Developer Intern",
+    company_name: "Skille AI",
+    icon: skille ,
+    iconBg: "#E6DEDD",
+    date: "Feb 2024 - Present",
+    points: [
+      "Built AI course generation platform from scratch with Next.js and Tailwind CSS. Developed a role-based model throughout the website, ensuring secure access control based on their roles.",
     ],
   },
 ];
@@ -219,7 +241,7 @@ const projects = [
       },
     ],
     image: cineflix,
-    live_link: "https://cineflix.live",
+    live_link: "https://cineflix-pro.vercel.app/",
     source_code_link: "https://github.com/siddhesh1051/CineFlix",
   },
   //project 6
