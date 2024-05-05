@@ -21,7 +21,7 @@ const Hero = () => {
             I am a MERN Stack Developer and <br className="sm:block hidden" />
             Passionate about learning new Technologies
           </p>
-          <a
+          {/* <a
             href="https://drive.google.com/file/d/1M2RYJB-tVrjytPhNcuBgrpgF1ov0tx6H/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
@@ -30,6 +30,16 @@ const Hero = () => {
               <span>Resume </span>
               <BsCloudDownload className="inline-block" />
             </button>
+          </a> */}
+          <a
+            href="https://drive.google.com/file/d/1M2RYJB-tVrjytPhNcuBgrpgF1ov0tx6H/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+            className="ctaButton text-charcoal bg-azure rounded-md w-40 h-12 md:text-base text-sm font-bold flex justify-center items-center gap-2 cursor-pointer mt-6"
+          >
+            {" "}
+            <span>Resume</span>
+            <BsCloudDownload className="font-bold ctaIcon" size={18} />
           </a>
         </div>
       </div>
