@@ -23,14 +23,13 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import firebase from "./tech/firebase.jpeg";
 import mui from "./tech/mui.png";
-import chakra from "./tech/chakra.png";
+import nextjs from "./tech/nextjs.png";
 
 import allen from "./company/allen.png";
 import iiitn from "./company/iiitn.png";
 import codeclause from "./company/codeclause.png";
-import density from "./company/density.png"
-import skille from "./company/skille.png"
-
+import density from "./company/density.png";
+import resolv from "./company/resolv.png";
 
 import cineflix from "./cineflix.jpg";
 import ownlink from "./ownlink.jpg";
@@ -48,8 +47,6 @@ import linkedin from "./linkedin.png";
 import github_profile from "./github_profile.png";
 import codechef from "./codechef.png";
 import leetcode from "./leetcode.png";
-
-
 
 export {
   logo,
@@ -76,12 +73,12 @@ export {
   threejs,
   firebase,
   mui,
-  chakra,
+  nextjs,
   allen,
   iiitn,
   codeclause,
   density,
-  skille,
+  resolv,
   cineflix,
   ownlink,
   contri,
@@ -97,5 +94,4 @@ export {
   github_profile,
   codechef,
   leetcode,
-
 };

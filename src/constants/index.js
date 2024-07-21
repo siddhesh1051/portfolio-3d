@@ -15,12 +15,12 @@ import {
   docker,
   firebase,
   mui,
-  chakra,
+  nextjs,
   allen,
   iiitn,
   codeclause,
   density,
-  skille,
+  resolv,
   cineflix,
   ownlink,
   sgpa,
@@ -35,8 +35,7 @@ import {
   linkedin,
   ahead,
   leetcode_contest_maker,
-  hiremonk
-
+  hiremonk,
 } from "../assets";
 
 export const navLinks = [
@@ -59,7 +58,7 @@ const services = [
     title: "MongoDb",
     icon: web,
   },
-  
+
   {
     title: "Express Js",
     icon: backend,
@@ -75,7 +74,6 @@ const services = [
 ];
 
 const technologies = [
- 
   {
     name: "CSS 3",
     icon: css,
@@ -84,7 +82,7 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  
+
   {
     name: "React JS",
     icon: reactjs,
@@ -122,8 +120,8 @@ const technologies = [
     icon: mui,
   },
   {
-    name: "Chakra UI",
-    icon: chakra,
+    name: "Next JS",
+    icon: nextjs,
   },
   {
     name: "firebase",
@@ -133,7 +131,6 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
-  
 ];
 
 const experiences = [
@@ -153,73 +150,73 @@ const experiences = [
     icon: iiitn,
     iconBg: "#E6DEDD",
     date: "Nov 2020 - Jun 2024",
-    points: [
-      "Nagpur"
-    ],
+    points: ["Nagpur"],
+    location: "",
   },
- 
+
   {
     title: "Web Developer Intern",
     company_name: "CodeClause",
-    icon: codeclause ,
+    icon: codeclause,
     iconBg: "#E6DEDD",
     date: "Dec 2022 - Jan 2023",
     points: [
       "Worked on a project to create a web app that allows students to view notices posted by the college and also allows them to post notices. ",
     ],
+    location: "Remote",
   },
   {
     title: "Frontend Intern",
     company_name: "Density Exchange",
-    icon: density ,
+    icon: density,
     iconBg: "#E6DEDD",
-    date: "Dec 2023 - Jan 2024",
+    date: "Jan 2024 - Feb 2024",
     points: [
       "Contributed to revamping the trading platform and building the Density Community Website. Used React js and Material UI to develop reusable components",
     ],
+    location: "Bengaluru",
   },
   {
     title: "Frontend Developer Intern",
-    company_name: "Skille AI",
-    icon: skille ,
+    company_name: "Resolv AI",
+    icon: resolv,
     iconBg: "#E6DEDD",
     date: "Feb 2024 - Present",
     points: [
       "Built AI course generation platform from scratch with Next.js and Tailwind CSS. Developed a role-based model throughout the website, ensuring secure access control based on their roles.",
     ],
+    location: "Bengaluru",
   },
 ];
 
 const testimonials = [
   {
-    
     username: "siddhesh1052001",
     company: "Linkedin",
     image: linkedin,
-    link: "https://www.linkedin.com/in/siddhesh1052001/"
+    link: "https://www.linkedin.com/in/siddhesh1052001/",
   },
   {
     username: "siddhesh1051",
     company: "Github",
     image: github_profile,
-    link : "https://github.com/siddhesh1051"
+    link: "https://github.com/siddhesh1051",
   },
   {
     username: "the_cyber_sid",
     company: "Codechef",
     image: codechef,
-    link:"https://www.codechef.com/users/the_cyber_sid"
+    link: "https://www.codechef.com/users/the_cyber_sid",
   },
   {
     username: "the_cyber_sid",
     company: "Leetcode",
     image: leetcode,
-    link:"https://leetcode.com/the_cyber_sid/"
+    link: "https://leetcode.com/the_cyber_sid/",
   },
 ];
 
 const projects = [
-
   //project 1
 
   {
@@ -289,7 +286,6 @@ const projects = [
         name: "razorpay",
         color: "blue-text-gradient",
       },
-      
     ],
     image: contri,
     live_link: "https://www.contri.tech",
@@ -313,43 +309,42 @@ const projects = [
         name: "tailwindcss",
         color: "blue-text-gradient",
       },
-      
     ],
     image: ahead,
     live_link: "https://density-exchange-landing-page.vercel.app/",
-    source_code_link: "https://github.com/siddhesh1051/Density-Exchange-Landing-Page",
+    source_code_link:
+      "https://github.com/siddhesh1051/Density-Exchange-Landing-Page",
   },
 
-    //project 2
-    {
-      name: "StockFlipr", 
-      description:
-        "Web App that allows users to search for stocks and view details about each stock, and also allows users to see advanced charts of stocks.(This project was made as a part of a Flipr hackathon.)",
-      tags: [
-        {
-          name: "reactJs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "chartjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "nodejs",
-          color: "pink-text-gradient",
-        }
-        
-      ],
-      image: stockflipr,
-      live_link: "https://stock-flipr.vercel.app/",
-      source_code_link: "https://github.com/siddhesh1051/StockScreener",
-    },
+  //project 2
+  {
+    name: "StockFlipr",
+    description:
+      "Web App that allows users to search for stocks and view details about each stock, and also allows users to see advanced charts of stocks.(This project was made as a part of a Flipr hackathon.)",
+    tags: [
+      {
+        name: "reactJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "chartjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: stockflipr,
+    live_link: "https://stock-flipr.vercel.app/",
+    source_code_link: "https://github.com/siddhesh1051/StockScreener",
+  },
 
-      //project`3
+  //project`3
 
   {
     name: "Online Notice Board",
@@ -371,15 +366,15 @@ const projects = [
     ],
     image: noticeboard,
     live_link: "#work",
-    source_code_link: "https://github.com/siddhesh1051/CC-JAN-WEB_DEVELOPMENT/tree/main/Task1-Online%20College%20Notice%20Board/online-notice-board",
+    source_code_link:
+      "https://github.com/siddhesh1051/CC-JAN-WEB_DEVELOPMENT/tree/main/Task1-Online%20College%20Notice%20Board/online-notice-board",
   },
-    
+
   //project 4
 
   {
     name: "Hiremonk",
-    description:
-      "Hiring Agency UI made using React Tailwind and framer motion",
+    description: "Hiring Agency UI made using React Tailwind and framer motion",
     tags: [
       {
         name: "reactJs",
@@ -389,7 +384,6 @@ const projects = [
         name: "framer motion",
         color: "blue-text-gradient",
       },
-      
     ],
     image: hiremonk,
     live_link: "http://hiremonk.vercel.app/",
@@ -397,7 +391,7 @@ const projects = [
   },
 
   {
-    name: "Striver SDE Sheet Tracker", 
+    name: "Striver SDE Sheet Tracker",
     description:
       "Web App that allows users to track their progress in Striver SDE Sheet.",
     tags: [
@@ -409,11 +403,11 @@ const projects = [
         name: "NextUI",
         color: "green-text-gradient",
       },
-      
     ],
     image: SDE,
     live_link: "https://sde-sheet.vercel.app/",
-    source_code_link: "https://github.com/siddhesh1051/Striver_sde_sheet_tracker_web_app",
+    source_code_link:
+      "https://github.com/siddhesh1051/Striver_sde_sheet_tracker_web_app",
   },
 
   //project 5
@@ -435,7 +429,6 @@ const projects = [
         name: "sql",
         color: "green-text-gradient",
       },
-      
     ],
     image: leetcode_contest_maker,
     live_link: "https://leetcodecontestmaker.vercel.app/",
@@ -461,17 +454,12 @@ const projects = [
   //       name: "javascript",
   //       color: "pink-text-gradient",
   //     },
-      
+
   //   ],
   //   image: password,
   //   live_link: "https://random-password-generator-pro.vercel.app/",
   //   source_code_link: "https://github.com/siddhesh1051/SGPA-Calculator",
   // },
-
- 
-
-  
-  
 ];
 
 export { services, technologies, experiences, testimonials, projects };

@@ -18,19 +18,10 @@ const Hero = () => {
             Hi 👋, I'm <span className="text-[#915EFF]">Siddhesh Patil</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I am a MERN Stack Developer and <br className="sm:block hidden" />
-            Passionate about learning new Technologies
+            I am a Full Stack Developer
+            <br className="sm:block hidden" />
+            with a strong passion for exploring and mastering new technologies.
           </p>
-          {/* <a
-            href="https://drive.google.com/file/d/1M2RYJB-tVrjytPhNcuBgrpgF1ov0tx6H/view?usp=sharing"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <button class="transition duration-500 border-0 text-lg h-12 w-[10rem] bg-[#915EFF] hover:bg-[#543794] text-white mt-10 px-3 rounded-md">
-              <span>Resume </span>
-              <BsCloudDownload className="inline-block" />
-            </button>
-          </a> */}
           <a
             href="https://drive.google.com/file/d/1M2RYJB-tVrjytPhNcuBgrpgF1ov0tx6H/view?usp=sharing"
             target="_blank"
