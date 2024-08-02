@@ -31,13 +31,18 @@ import codeclause from "./company/codeclause.png";
 import density from "./company/density.png";
 import resolv from "./company/resolv.png";
 
-import cineflix from "./cineflix.jpg";
+import assignment from "./assignment.jpg";
 import ownlink from "./ownlink.jpg";
+import cineflix from "./cineflix.jpg";
+import cineflixApp from "./cineflix-app-mock.jpg";
+
 import sgpa from "./sgpa.jpg";
 import password from "./password.jpg";
 import noticeboard from "./noticeboard.png";
 import stockflipr from "./stockflipr.jpg";
 import contri from "./contri.jpg";
+import aihub from "./aihub-mock.jpg";
+import hyreme from "./hyreme-mock.jpg";
 import ahead from "./ahead.jpg";
 import leetcode_contest_maker from "./leetcode_contest.jpg";
 import hiremonk from "./hiremonk.jpg";
@@ -79,9 +84,13 @@ export {
   codeclause,
   density,
   resolv,
-  cineflix,
+  assignment,
   ownlink,
+  cineflix,
+  cineflixApp,
   contri,
+  aihub,
+  hyreme,
   ahead,
   sgpa,
   leetcode_contest_maker,

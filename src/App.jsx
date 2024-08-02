@@ -1,4 +1,4 @@
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import {
   About,
   Contact,
@@ -12,6 +12,7 @@ import {
 } from "./components";
 import ReactGA from "react-ga4";
 import StarCanvas from "./components/canvas/StarCanvas";
+import Assignments from "./components/Assignments"; // Import your Projects component
 
 const App = () => {
   const TRACKING_ID = "G-VNF5JE3HEJ";
@@ -22,19 +23,26 @@ const App = () => {
     <BrowserRouter>
       <div className="relative z-0 bg-primary">
         <StarCanvas />
-
-        <div className=" bg-cover bg-no-repeat bg-center">
+        <div className="bg-cover bg-no-repeat bg-center">
           <Navbar />
-          <Hero />
         </div>
-        <About />
-        <Experience />
-        <Tech />
-        <Works />
-        <Feedbacks />
-        <div className="relative z-0">
-          <Contact />
-        </div>
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                <Hero />
+                <About />
+                <Experience />
+                <Tech />
+                <Works />
+                <Feedbacks />
+                <Contact />
+              </>
+            }
+          />
+          <Route path="/assignments" element={<Assignments />} />
+        </Routes>
       </div>
     </BrowserRouter>
   );

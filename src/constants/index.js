@@ -21,8 +21,10 @@ import {
   codeclause,
   density,
   resolv,
-  cineflix,
+  assignment,
   ownlink,
+  cineflix,
+  cineflixApp,
   sgpa,
   contri,
   password,
@@ -36,6 +38,8 @@ import {
   ahead,
   leetcode_contest_maker,
   hiremonk,
+  aihub,
+  hyreme,
 } from "../assets";
 
 export const navLinks = [
@@ -44,7 +48,7 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
+    id: "projects",
     title: "Work",
   },
   {
@@ -217,29 +221,29 @@ const testimonials = [
 ];
 
 const projects = [
-  //project 1
-
+  //assignment
   {
-    name: "CineFlix",
+    name: "Assignment Directory",
     description:
-      "Web App that allows users to search for movies and tv shows, view details about each movie or show, and save their favorite movies and tv shows to a watchlist.",
+      "It includes assignments completed during hackathons and other coding challenges.",
     tags: [
       {
-        name: "reactjs",
+        name: "frontend",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "nodejs",
+        name: "backend",
         color: "pink-text-gradient",
       },
+      {
+        name: "fullstack",
+        color: "green-text-gradient",
+      },
     ],
-    image: cineflix,
-    live_link: "https://cineflix-pro.vercel.app/",
-    source_code_link: "https://github.com/siddhesh1051/CineFlix",
+    image: assignment,
+    live_link: "https://ownlink.vercel.app",
+    source_code_link: "https://github.com/siddhesh1051/Ownlink",
+    isAssignment: true,
   },
   //project 6
   {
@@ -265,14 +269,58 @@ const projects = [
       },
     ],
     image: ownlink,
-    live_link: "https://ownlink.me",
+    live_link: "https://ownlink.vercel.app",
     source_code_link: "https://github.com/siddhesh1051/Ownlink",
   },
-
+  {
+    name: "CineFlix",
+    description:
+      "Web App that allows users to search for movies and tv shows, view details about each movie or show, and save their favorite movies and tv shows to a watchlist.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cineflix,
+    live_link: "https://cineflix-pro.vercel.app/",
+    source_code_link: "https://github.com/siddhesh1051/CineFlix",
+  },
+  {
+    name: "CineFlix App (React Native)",
+    description:
+      "App version of CineFlix made using React Native with shared database with CineFlix Web App so that user data is synced between both platforms.",
+    tags: [
+      {
+        name: "react native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cineflixApp,
+    live_link: "https://cineflix-pro.vercel.app/",
+    source_code_link:
+      "https://github.com/siddhesh1051/Cineflix-App-React-Native",
+  },
   {
     name: "Contri",
     description:
-      "Web app that allows users to chat with each other an also split bills among themselves. Made using ReactJs and firebase and razorpay api.",
+      "Web app that allows users to chat with each other and also split bills among themselves. Made using ReactJs and firebase and razorpay sdk.",
     tags: [
       {
         name: "reactJs",
@@ -293,16 +341,16 @@ const projects = [
   },
 
   {
-    name: "Ahead App Redesign",
+    name: "AI Hub",
     description:
-      "Redesigned the landing page of Ahead App using NextJs and Framer Motion.",
+      "Marketplace for AI models and datasets. Users can upload their AI models and datasets and other users can try them",
     tags: [
       {
         name: "NextJs",
         color: "pink-text-gradient",
       },
       {
-        name: "Framer Motion",
+        name: "json mock api",
         color: "green-text-gradient",
       },
       {
@@ -310,85 +358,130 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: ahead,
-    live_link: "https://density-exchange-landing-page.vercel.app/",
-    source_code_link:
-      "https://github.com/siddhesh1051/Density-Exchange-Landing-Page",
+    image: aihub,
+    live_link: "https://aihub-atlan.vercel.app/",
+    source_code_link: "https://github.com/siddhesh1051/AI-Hub",
   },
-
-  //project 2
   {
-    name: "StockFlipr",
+    name: "HyreMe",
     description:
-      "Web App that allows users to search for stocks and view details about each stock, and also allows users to see advanced charts of stocks.(This project was made as a part of a Flipr hackathon.)",
+      "HyreMe is a job portal where users can find latest jobs. Similarly all jobs are automatically posted to twitter, linkedin and telegram channels through a admin panel and telegram bot.",
     tags: [
       {
-        name: "reactJs",
-        color: "blue-text-gradient",
+        name: "NextJs",
+        color: "pink-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "NodeJs",
         color: "green-text-gradient",
       },
       {
-        name: "chartjs",
+        name: "automation",
         color: "blue-text-gradient",
       },
-      {
-        name: "nodejs",
-        color: "pink-text-gradient",
-      },
     ],
-    image: stockflipr,
-    live_link: "https://stock-flipr.vercel.app/",
-    source_code_link: "https://github.com/siddhesh1051/StockScreener",
+    image: hyreme,
+    live_link: "https://hyreme.vercel.app/",
+    source_code_link: "https://github.com/siddhesh1051/Telegram_bot_autoPost",
   },
+
+  // {
+  //   name: "Ahead App Redesign",
+  //   description:
+  //     "Redesigned the landing page of Ahead App using NextJs and Framer Motion.",
+  //   tags: [
+  //     {
+  //       name: "NextJs",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "Framer Motion",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwindcss",
+  //       color: "blue-text-gradient",
+  //     },
+  //   ],
+  //   image: ahead,
+  //   live_link: "https://density-exchange-landing-page.vercel.app/",
+  //   source_code_link:
+  //     "https://github.com/siddhesh1051/Density-Exchange-Landing-Page",
+  // },
+
+  //project 2
+  // {
+  //   name: "StockFlipr",
+  //   description:
+  //     "Web App that allows users to search for stocks and view details about each stock, and also allows users to see advanced charts of stocks.(This project was made as a part of a Flipr hackathon.)",
+  //   tags: [
+  //     {
+  //       name: "reactJs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "mongodb",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "chartjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "nodejs",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: stockflipr,
+  //   live_link: "https://stock-flipr.vercel.app/",
+  //   source_code_link: "https://github.com/siddhesh1051/StockScreener",
+  // },
 
   //project`3
 
-  {
-    name: "Online Notice Board",
-    description:
-      "Web App that allows students to view notices posted by the college and also allows them to post notices.",
-    tags: [
-      {
-        name: "reactjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: noticeboard,
-    live_link: "#work",
-    source_code_link:
-      "https://github.com/siddhesh1051/CC-JAN-WEB_DEVELOPMENT/tree/main/Task1-Online%20College%20Notice%20Board/online-notice-board",
-  },
+  // {
+  //   name: "Online Notice Board",
+  //   description:
+  //     "Web App that allows students to view notices posted by the college and also allows them to post notices.",
+  //   tags: [
+  //     {
+  //       name: "reactjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "restapi",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "mongodb",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: noticeboard,
+  //   live_link: "#work",
+  //   source_code_link:
+  //     "https://github.com/siddhesh1051/CC-JAN-WEB_DEVELOPMENT/tree/main/Task1-Online%20College%20Notice%20Board/online-notice-board",
+  // },
 
   //project 4
 
-  {
-    name: "Hiremonk",
-    description: "Hiring Agency UI made using React Tailwind and framer motion",
-    tags: [
-      {
-        name: "reactJs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "framer motion",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: hiremonk,
-    live_link: "http://hiremonk.vercel.app/",
-    source_code_link: "https://github.com/siddhesh1051/hiring-agency-ui",
-  },
+  // {
+  //   name: "Hiremonk",
+  //   description: "Hiring Agency UI made using React Tailwind and framer motion",
+  //   tags: [
+  //     {
+  //       name: "reactJs",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "framer motion",
+  //       color: "blue-text-gradient",
+  //     },
+  //   ],
+  //   image: hiremonk,
+  //   live_link: "http://hiremonk.vercel.app/",
+  //   source_code_link: "https://github.com/siddhesh1051/hiring-agency-ui",
+  // },
 
   {
     name: "Striver SDE Sheet Tracker",
@@ -462,4 +555,106 @@ const projects = [
   // },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const assignments = [
+  {
+    name: "Marketplace of AI Models",
+    companyName: "Atlan",
+    role: "Frontend Developer Intern",
+    description: "MarketPlace for AI models.",
+    image: ownlink,
+    live_link: "https://aihub-atlan.vercel.app/",
+  },
+  {
+    name: "Landing Page Redesign",
+    companyName: "Density Exchange",
+    role: "Frontend Developer Intern",
+    description: "Redesigned the landing page from dribble design.",
+    image: ahead,
+    live_link: "https://density-exchange-landing-page.vercel.app/",
+  },
+  {
+    name: "Workout Builder for Gym Trainers",
+    companyName: "Spur.Fit",
+    role: "Frontend Developer",
+    description:
+      "Developed a workout builder for gym trainers.containing drag and drop feature.",
+    image: assignment,
+    live_link: "https://spur-fit-frontend-assignment.vercel.app/",
+  },
+  {
+    name: "Trading Platform UI",
+    companyName: "Hackathon",
+    role: "",
+    description: "Developed a trading platform UI.Including charts and tables.",
+    image: assignment,
+    live_link: "https://stock-flipr.vercel.app/",
+  },
+  {
+    name: "Profile Management",
+    companyName: "Cuvette",
+    role: "Frontend Developer Intern",
+    description: "Developed a profile management system for users.",
+    image: assignment,
+    live_link: "https://cuvette-frontend-assignment.vercel.app/",
+  },
+  {
+    name: "Covid Dashboard",
+    companyName: "OpeninApp",
+    role: "Frontend Developer Intern",
+    description:
+      "Developed a covid dashboard which contains charts and login with google features.",
+    image: assignment,
+    live_link: "https://openinapp-assignment-demo.vercel.app/",
+  },
+  {
+    name: "Gmail Auto Reply Bot",
+    companyName: "OpeninApp",
+    role: "Backend Developer Intern",
+    description:
+      "Developed a gmail auto reply bot using google api and nodejs.",
+    image: assignment,
+    live_link: "https://github.com/siddhesh1051/openinapp-backend",
+  },
+  {
+    name: "Chat App with socket.io",
+    companyName: "Ayna",
+    role: "Full Stack Developer",
+    description: "Developed a chat app using NextJS, strapi and socket.io.",
+    image: assignment,
+    live_link: "https://ayna-full-stack-assignment-websocket.vercel.app/chat",
+  },
+  {
+    name: "Landing Page",
+    companyName: "Banksathi",
+    role: "Software Developer Intern",
+    description: "Developed a landing page for banksathi.",
+    image: assignment,
+    live_link: "https://banksathi-frontend-assignment.vercel.app/",
+  },
+  {
+    name: "Job Portal",
+    companyName: "Weekday",
+    role: "Frontend Developer",
+    description: "Developed a job portal containing multiple filters",
+    image: assignment,
+    live_link: "https://weekday-frontend-assignment-siddhesh.vercel.app/",
+  },
+  {
+    name: "Online Public Notice Board",
+    companyName: "CodeClause",
+    role: "Full Stack Developer Intern",
+    description:
+      "Developed a online notice board where students can post notices. as a part of 1 month internship.",
+    image: assignment,
+    live_link: "https://cc-jan-web-development.vercel.app/",
+  },
+];
+
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  assignments,
+};
