@@ -53,6 +53,17 @@ import github_profile from "./github_profile.png";
 import codechef from "./codechef.png";
 import leetcode from "./leetcode.png";
 
+import atlan from "./atlan.png";
+import density_assignemnt from "./density-fe.png";
+import flipr from "./stockflipr.jpg";
+import spur from "./spur.png";
+import openinapp_fe from "./openinapp-fe.png";
+import cuvette from "./cuvette.png";
+import codeclause_assignment from "./codeclause.png";
+import ayna from "./ayna.png";
+import hiremonk_fe from "./hiremonk-fe.png";
+import banksathi from "./banksathi.png";
+
 export {
   logo,
   backend,
@@ -103,4 +114,14 @@ export {
   github_profile,
   codechef,
   leetcode,
+  atlan,
+  density_assignemnt,
+  flipr,
+  spur,
+  openinapp_fe,
+  cuvette,
+  codeclause_assignment,
+  ayna,
+  banksathi,
+  hiremonk_fe,
 };

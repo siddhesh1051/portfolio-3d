@@ -40,6 +40,16 @@ import {
   hiremonk,
   aihub,
   hyreme,
+  density_assignemnt,
+  atlan,
+  spur,
+  flipr,
+  cuvette,
+  openinapp_fe,
+  ayna,
+  hiremonk_fe,
+  banksathi,
+  codeclause_assignment,
 } from "../assets";
 
 export const navLinks = [
@@ -185,7 +195,7 @@ const experiences = [
     company_name: "Resolv AI",
     icon: resolv,
     iconBg: "#E6DEDD",
-    date: "Feb 2024 - Present",
+    date: "Dec 2023 - Present",
     points: [
       "Built AI course generation platform from scratch with Next.js and Tailwind CSS. Developed a role-based model throughout the website, ensuring secure access control based on their roles.",
     ],
@@ -561,7 +571,7 @@ const assignments = [
     companyName: "Atlan",
     role: "Frontend Developer Intern",
     description: "MarketPlace for AI models.",
-    image: ownlink,
+    image: atlan,
     live_link: "https://aihub-atlan.vercel.app/",
   },
   {
@@ -569,7 +579,7 @@ const assignments = [
     companyName: "Density Exchange",
     role: "Frontend Developer Intern",
     description: "Redesigned the landing page from dribble design.",
-    image: ahead,
+    image: density_assignemnt,
     live_link: "https://density-exchange-landing-page.vercel.app/",
   },
   {
@@ -578,15 +588,15 @@ const assignments = [
     role: "Frontend Developer",
     description:
       "Developed a workout builder for gym trainers.containing drag and drop feature.",
-    image: assignment,
+    image: spur,
     live_link: "https://spur-fit-frontend-assignment.vercel.app/",
   },
   {
     name: "Trading Platform UI",
-    companyName: "Hackathon",
-    role: "",
+    companyName: "Flipr Hackathon",
+    role: "Full Stack (Hackathon)",
     description: "Developed a trading platform UI.Including charts and tables.",
-    image: assignment,
+    image: flipr,
     live_link: "https://stock-flipr.vercel.app/",
   },
   {
@@ -594,7 +604,7 @@ const assignments = [
     companyName: "Cuvette",
     role: "Frontend Developer Intern",
     description: "Developed a profile management system for users.",
-    image: assignment,
+    image: cuvette,
     live_link: "https://cuvette-frontend-assignment.vercel.app/",
   },
   {
@@ -603,7 +613,7 @@ const assignments = [
     role: "Frontend Developer Intern",
     description:
       "Developed a covid dashboard which contains charts and login with google features.",
-    image: assignment,
+    image: openinapp_fe,
     live_link: "https://openinapp-assignment-demo.vercel.app/",
   },
   {
@@ -620,7 +630,7 @@ const assignments = [
     companyName: "Ayna",
     role: "Full Stack Developer",
     description: "Developed a chat app using NextJS, strapi and socket.io.",
-    image: assignment,
+    image: ayna,
     live_link: "https://ayna-full-stack-assignment-websocket.vercel.app/chat",
   },
   {
@@ -628,8 +638,17 @@ const assignments = [
     companyName: "Banksathi",
     role: "Software Developer Intern",
     description: "Developed a landing page for banksathi.",
-    image: assignment,
+    image: banksathi,
     live_link: "https://banksathi-frontend-assignment.vercel.app/",
+  },
+  ,
+  {
+    name: "Hiring Agency UI",
+    companyName: "Hiremonk",
+    role: "Frontend Developer Intern",
+    description: "Developed a hiring agency UI using React and framer motion.",
+    image: hiremonk_fe,
+    live_link: "http://hiremonk.vercel.app/",
   },
   {
     name: "Job Portal",
@@ -645,7 +664,7 @@ const assignments = [
     role: "Full Stack Developer Intern",
     description:
       "Developed a online notice board where students can post notices. as a part of 1 month internship.",
-    image: assignment,
+    image: codeclause_assignment,
     live_link: "https://cc-jan-web-development.vercel.app/",
   },
 ];

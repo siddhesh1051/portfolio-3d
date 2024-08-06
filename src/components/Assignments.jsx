@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 
@@ -21,23 +21,19 @@ const AssignmentCard = ({
   isAssignment,
 }) => {
   return (
-    <motion.div
-      variants={fadeIn("up", "spring", index * 0.5, 0.75)}
-      initial="hidden"
-      animate="show"
-    >
+    <div>
       <div
         className={`${
           isAssignment
             ? "bg-tertiary/80 border-2 border-white/30"
             : "bg-tertiary"
-        } p-5 rounded-2xl sm:w-[360px] w-full`}
+        } p-5 rounded-lg sm:w-[360px] w-full`}
       >
-        <div className={`relative w-full h-[230px]`}>
+        <div className={`relative w-full h-[200px]`}>
           <img
             src={image}
             alt="project_image"
-            className="w-full h-full object-cover rounded-2xl"
+            className="w-full h-full object-contain rounded-lg"
             accept="image/*"
           />
         </div>
@@ -65,13 +61,16 @@ const AssignmentCard = ({
           <span>View</span>
         </Link>
       </div>
-    </motion.div>
+    </div>
   );
 };
 
 const Assignments = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
-    <div className="mt-18">
+    <div className="md:mt-16 mt-24">
       <motion.div variants={textVariant()} initial="hidden" animate="show">
         <h2 className={`${styles.sectionHeadText}`}>Assignments.</h2>
       </motion.div>
