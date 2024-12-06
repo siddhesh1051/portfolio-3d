@@ -251,7 +251,7 @@ const projects = [
       },
     ],
     image: assignment,
-    live_link: "https://ownlink.vercel.app",
+    live_link: "https://ownlink.live",
     source_code_link: "https://github.com/siddhesh1051/Ownlink",
     isAssignment: true,
   },
@@ -279,7 +279,7 @@ const projects = [
       },
     ],
     image: ownlink,
-    live_link: "https://ownlink.vercel.app",
+    live_link: "https://ownlink.live",
     source_code_link: "https://github.com/siddhesh1051/Ownlink",
   },
   {
@@ -301,7 +301,7 @@ const projects = [
       },
     ],
     image: cineflix,
-    live_link: "https://cineflix-pro.vercel.app/",
+    live_link: "https://cineflixx.live",
     source_code_link: "https://github.com/siddhesh1051/CineFlix",
   },
   {
@@ -323,7 +323,7 @@ const projects = [
       },
     ],
     image: cineflixApp,
-    live_link: "https://cineflix-pro.vercel.app/",
+    live_link: "https://cineflixx.live",
     source_code_link:
       "https://github.com/siddhesh1051/Cineflix-App-React-Native",
   },
