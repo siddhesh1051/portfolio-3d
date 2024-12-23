@@ -21,8 +21,10 @@ import {
   codeclause,
   density,
   resolv,
+  turbostart,
   assignment,
   ownlink,
+  ownlinkRewards,
   cineflix,
   cineflixApp,
   sgpa,
@@ -184,7 +186,7 @@ const experiences = [
     company_name: "Density Exchange",
     icon: density,
     iconBg: "#E6DEDD",
-    date: "Jan 2024 - Feb 2024",
+    date: "Jan 2024 - Jan 2024",
     points: [
       "Contributed to revamping the trading platform and building the Density Community Website. Used React js and Material UI to develop reusable components",
     ],
@@ -195,9 +197,20 @@ const experiences = [
     company_name: "Resolv AI",
     icon: resolv,
     iconBg: "#E6DEDD",
-    date: "Dec 2023 - Present",
+    date: "Dec 2023 - July 2024",
     points: [
       "Built AI course generation platform from scratch with Next.js and Tailwind CSS. Developed a role-based model throughout the website, ensuring secure access control based on their roles.",
+    ],
+    location: "Bengaluru",
+  },
+  {
+    title: "Full Stack Developer",
+    company_name: "Turbostart",
+    icon: turbostart,
+    iconBg: "#E6DEDD",
+    date: "August 2024 - Present",
+    points: [
+      "Led the Development of Multiple Products from scrach including Climaty.ai, TS Bridge etc. Contributed in Schema Design and Frontend design of the products.",
     ],
     location: "Bengaluru",
   },
@@ -255,7 +268,7 @@ const projects = [
     source_code_link: "https://github.com/siddhesh1051/Ownlink",
     isAssignment: true,
   },
-  //project 6
+  //project 1
   {
     name: "Ownlink",
     description:
@@ -281,6 +294,34 @@ const projects = [
     image: ownlink,
     live_link: "https://ownlink.live",
     source_code_link: "https://github.com/siddhesh1051/Ownlink",
+  },
+  //project 2
+  {
+    name: "Ownlink Rewards",
+    description:
+      "Ownlink Rewards is a React Native app that rewards users for sharing their facvourite creators ownlink(link-in-bio). It has features like link tracking, push notification, scratch cards etc.",
+    tags: [
+      {
+        name: "react native",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "blue-text-gradient",
+      },
+      ,
+      {
+        name: "typescript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ownlinkRewards,
+    live_link: "https://ownlink.live/routes/rewards",
+    source_code_link: "https://github.com/siddhesh1051/ownlink-rewards-app",
   },
   {
     name: "CineFlix",

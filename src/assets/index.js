@@ -30,9 +30,11 @@ import iiitn from "./company/iiitn.png";
 import codeclause from "./company/codeclause.png";
 import density from "./company/density.png";
 import resolv from "./company/resolv.png";
+import turbostart from "./company/turbostart.png";
 
 import assignment from "./assignment.jpg";
 import ownlink from "./ownlink.jpg";
+import ownlinkRewards from "./ownlink-rewards-mock.jpg";
 import cineflix from "./cineflix.jpg";
 import cineflixApp from "./cineflix-app-mock.jpg";
 
@@ -95,8 +97,10 @@ export {
   codeclause,
   density,
   resolv,
+  turbostart,
   assignment,
   ownlink,
+  ownlinkRewards,
   cineflix,
   cineflixApp,
   contri,
