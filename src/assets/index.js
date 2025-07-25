@@ -31,6 +31,7 @@ import codeclause from "./company/codeclause.png";
 import density from "./company/density.png";
 import resolv from "./company/resolv.png";
 import turbostart from "./company/turbostart.png";
+import razorpay from "./company/razorpay.png";
 
 import assignment from "./assignment.jpg";
 import ownlink from "./ownlink.jpg";
@@ -98,6 +99,7 @@ export {
   density,
   resolv,
   turbostart,
+  razorpay,
   assignment,
   ownlink,
   ownlinkRewards,
