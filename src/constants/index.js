@@ -161,27 +161,7 @@ const experiences = [
   //     "Kota"
   //   ],
   // },
-  {
-    title: "B.Tech in Electronics and Communication Engineering",
-    company_name: "Indian Institute of Information Technology, Nagpur",
-    icon: iiitn,
-    iconBg: "#E6DEDD",
-    date: "Nov 2020 - Jun 2024",
-    points: ["Nagpur"],
-    location: "",
-  },
 
-  {
-    title: "Web Developer Intern",
-    company_name: "CodeClause",
-    icon: codeclause,
-    iconBg: "#E6DEDD",
-    date: "Dec 2022 - Jan 2023",
-    points: [
-      "Worked on a project to create a web app that allows students to view notices posted by the college and also allows them to post notices. ",
-    ],
-    location: "Remote",
-  },
   {
     title: "Frontend Intern",
     company_name: "Density Exchange",
@@ -222,7 +202,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "July 2025 - Present",
     points: [
-      "Working on building scalable payment solutions and financial technology products.",
+      "Building🧑🏻‍💻",
     ],
     location: "Bengaluru",
   },
