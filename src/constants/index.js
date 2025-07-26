@@ -161,7 +161,15 @@ const experiences = [
   //     "Kota"
   //   ],
   // },
-
+ {
+    title: "B.Tech in Electronics and Communication Engineering",
+    company_name: "Indian Institute of Information Technology, Nagpur",
+    icon: iiitn,
+    iconBg: "#E6DEDD",
+    date: "Nov 2020 - Jun 2024",
+    points: ["Nagpur"],
+    location: "",
+  },
   {
     title: "Frontend Intern",
     company_name: "Density Exchange",
